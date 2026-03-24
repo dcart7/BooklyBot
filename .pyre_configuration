@@ -1,0 +1,9 @@
+{
+  "source_directories": [
+    "."
+  ],
+  "search_path": [
+    "/Users/denys/BooklyИot/BooklyBot/venv/lib/python3.12/site-packages",
+    "/Users/denys/BooklyИot/BooklyBot"
+  ]
+}

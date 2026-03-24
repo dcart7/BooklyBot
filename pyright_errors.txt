@@ -1,0 +1,179 @@
+/Users/denys/BooklyИot/BooklyBot/database/db.py
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:66:12 - error: Type "Iterable[Row]" is not assignable to return type "list[Unknown]"
+    "Iterable[Row]" is not assignable to "list[Unknown]" (reportReturnType)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:75:12 - error: Type "Row | None" is not assignable to return type "dict[Unknown, Unknown] | None"
+    Type "Row | None" is not assignable to type "dict[Unknown, Unknown] | None"
+      Type "Row" is not assignable to type "dict[Unknown, Unknown] | None"
+        "Row" is not assignable to "dict[Unknown, Unknown]"
+        "Row" is not assignable to "None" (reportReturnType)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:101:18 - error: Object of type "None" is not subscriptable (reportOptionalSubscript)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:192:12 - error: Type "Iterable[Row]" is not assignable to return type "list[Unknown]"
+    "Iterable[Row]" is not assignable to "list[Unknown]" (reportReturnType)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:220:12 - error: Type "Iterable[Row]" is not assignable to return type "list[Unknown]"
+    "Iterable[Row]" is not assignable to "list[Unknown]" (reportReturnType)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:340:12 - error: Type "Row | None" is not assignable to return type "dict[Unknown, Unknown] | None"
+    Type "Row | None" is not assignable to type "dict[Unknown, Unknown] | None"
+      Type "Row" is not assignable to type "dict[Unknown, Unknown] | None"
+        "Row" is not assignable to "dict[Unknown, Unknown]"
+        "Row" is not assignable to "None" (reportReturnType)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:396:27 - error: Object of type "None" is not subscriptable (reportOptionalSubscript)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:417:12 - error: Type "Row" is not assignable to return type "dict[Unknown, Unknown] | None"
+    Type "Row" is not assignable to type "dict[Unknown, Unknown] | None"
+      "Row" is not assignable to "dict[Unknown, Unknown]"
+      "Row" is not assignable to "None" (reportReturnType)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:442:12 - error: Type "Iterable[Row]" is not assignable to return type "list[Unknown]"
+    "Iterable[Row]" is not assignable to "list[Unknown]" (reportReturnType)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:459:12 - error: Type "Iterable[Row]" is not assignable to return type "list[Unknown]"
+    "Iterable[Row]" is not assignable to "list[Unknown]" (reportReturnType)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:474:12 - error: Type "Row | None" is not assignable to return type "dict[Unknown, Unknown] | None"
+    Type "Row | None" is not assignable to type "dict[Unknown, Unknown] | None"
+      Type "Row" is not assignable to type "dict[Unknown, Unknown] | None"
+        "Row" is not assignable to "dict[Unknown, Unknown]"
+        "Row" is not assignable to "None" (reportReturnType)
+  /Users/denys/BooklyИot/BooklyBot/database/db.py:502:12 - error: Type "Iterable[Row]" is not assignable to return type "list[Unknown]"
+    "Iterable[Row]" is not assignable to "list[Unknown]" (reportReturnType)
+/Users/denys/BooklyИot/BooklyBot/handlers/admin.py
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:37:36 - error: "id" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:69:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:69:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:84:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:84:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:90:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:90:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:101:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:101:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:112:29 - error: "strip" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:136:30 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:148:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:148:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:159:30 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:168:30 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:176:30 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:182:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:182:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:201:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:201:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:210:30 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:212:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:212:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:222:27 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:224:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:224:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:233:30 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:235:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:235:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:246:29 - error: "strip" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:269:11 - error: Object of type "None" is not subscriptable (reportOptionalSubscript)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:277:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:277:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:294:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:294:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:300:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:300:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:309:30 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:314:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:314:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:323:36 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:348:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:348:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:357:36 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:385:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/admin.py:385:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+/Users/denys/BooklyИot/BooklyBot/handlers/booking.py
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:53:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:53:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:65:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:65:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:79:36 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:89:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:89:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:105:27 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:130:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:130:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:142:28 - error: Cannot access attribute "edit_reply_markup" for class "InaccessibleMessage"
+    Attribute "edit_reply_markup" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:142:28 - error: "edit_reply_markup" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:154:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:154:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:173:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:173:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:187:46 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:190:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:190:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:203:25 - error: "strip" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:222:26 - error: "strip" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:244:31 - error: Object of type "None" is not subscriptable (reportOptionalSubscript)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:267:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:267:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:298:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:298:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:300:31 - error: Object of type "None" is not subscriptable (reportOptionalSubscript)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:317:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/booking.py:317:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+/Users/denys/BooklyИot/BooklyBot/handlers/cancel.py
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:20:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:20:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:35:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:35:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:44:36 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:45:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:45:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:54:36 - error: "split" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:65:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/cancel.py:65:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+/Users/denys/BooklyИot/BooklyBot/handlers/portfolio.py
+  /Users/denys/BooklyИot/BooklyBot/handlers/portfolio.py:27:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/portfolio.py:27:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/portfolio.py:41:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/portfolio.py:41:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/portfolio.py:52:25 - error: "strip" is not a known attribute of "None" (reportOptionalMemberAccess)
+/Users/denys/BooklyИot/BooklyBot/handlers/prices.py
+  /Users/denys/BooklyИot/BooklyBot/handlers/prices.py:28:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/prices.py:28:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/prices.py:42:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/prices.py:42:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+/Users/denys/BooklyИot/BooklyBot/handlers/start.py
+  /Users/denys/BooklyИot/BooklyBot/handlers/start.py:35:49 - error: "id" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/start.py:60:31 - error: "first_name" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/start.py:75:32 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/start.py:75:32 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /Users/denys/BooklyИot/BooklyBot/handlers/start.py:78:39 - error: Expected 0 positional arguments (reportCallIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/start.py:94:28 - error: Cannot access attribute "edit_text" for class "InaccessibleMessage"
+    Attribute "edit_text" is unknown (reportAttributeAccessIssue)
+  /Users/denys/BooklyИot/BooklyBot/handlers/start.py:94:28 - error: "edit_text" is not a known attribute of "None" (reportOptionalMemberAccess)
+113 errors, 0 warnings, 0 informations
