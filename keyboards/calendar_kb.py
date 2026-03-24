@@ -52,12 +52,12 @@ def build_calendar(year: int, month: int, available_dates: list[str]) -> InlineK
                 elif date_str in available_dates:
                     # Доступна запись
                     row.append(InlineKeyboardButton(
-                        text=f"•{day_num}",
+                        text=f"✅ {day_num}",
                         callback_data=f"cal:day:{date_str}",
                     ))
                 else:
                     # Нет свободных слотов
-                    row.append(InlineKeyboardButton(text=f"×{day_num}", callback_data="cal:ignore"))
+                    row.append(InlineKeyboardButton(text=f"❌ {day_num}", callback_data="cal:ignore"))
         buttons.append(row)
 
     # Кнопка «Назад»
